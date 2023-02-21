@@ -1,0 +1,79 @@
+body {
+    background-color: #1755a5;
+    font-family: Arial, sans-serif;
+    zoom: 1.75;
+}
+
+.greetingsForm input[type="text"] {
+    outline: none;
+    padding: 0.5em;
+    font-size: 1.2em;
+    width: 300px;
+}
+
+.greetingsForm .addForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addForm input[type="number"] {
+    padding: 0.5em;
+    font-size: 1.2em;
+    width: 100px;
+}
+
+form {
+    padding: 1em;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+form input[type="text"]::placeholder,
+form input[type="number"]::placeholder {
+    font-style: italic;
+    color: #ccc;
+}
+
+form button[type="submit"] {
+    position: absolute;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+    margin-left: 20px;
+}
+
+form button[type="submit"]:hover {
+    position: absolute;
+    background-color:#ffbf00;
+    transition: 0.7s;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+}
+
+form span {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+form label {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 150px;
+}
